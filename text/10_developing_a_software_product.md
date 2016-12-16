@@ -46,9 +46,21 @@ Once the system has been defined, you can move on to the __design__ phase.
 
 #### Design
 
+After you have determined _what_ the system needs to do in the requirements phase, it is now time to start mapping out _how_ it will be done.  Depending on the methodology, domain, team, and product, this may involve anything from sketching out major subsystems and interfaces, all the way to describing individual classes and methods to be implemented.  Some design of the system is always a part of software engineering, however, even if it is in a single programmer's head.
+
+At a bare minimum, the external interfaces should be planned, and the .  For a command line application, this may mean deciding what command-line switches should be developed, what kinds of interaction the user will have, and whether or not they should be automatable.  For a graphical user application, it may mean designing the user interface.  For large systems, it may include definitions of various subsystems and how they will interact and communicate.
+
+Most design phases will include at least a rough idea of what architectural paradigms will be used.  This will allow a general idea for all developers of how their individual classes and packages are supposed to be laid out, and the basics of how they should communicate with each other.
+
+Code style guides and other rules for development, such as determining how work will be allocated and how to communicate with other members of the team, will be set out.  While many of these may seem minor - does it really matter whether an individual programmer uses tabs or spaces? - it is usually better to set them down now, to avoid confusion later.  For example, if one programmer's editor consistently converts tab to spaces, and another's always does the opposite, this will mean that any time a different programmer edits a file, it will show changes being made to all lines in the file that have any indentation.  This will make it much more difficult to trace what actual changes were made by each developer.
+
+After the design phase is complete, it is time to move on to the __development__ phase.
 
 #### Development
 
+Congratulations!  You have now reached the first part of the SDLC where you will actually get to write code.  Unlike many simple projects, non-trivial software engineering requires much more work than just writing code.  While programming is, of course, an important aspect of software development, it is certainly not the only one.
+
+At this point, developers should have a good idea of what the system is supposed to do (from the requirements phase), and a "guidebook" on how to do it (from the design phase).  Developers can then 
 
 #### Integration and Test
 
