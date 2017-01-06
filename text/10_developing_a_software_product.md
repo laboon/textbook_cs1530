@@ -1,5 +1,6 @@
 ## Developing A Software Product
 
+
 When beginning a new software project, it is im
 
 ### Who Is Involved In Software Development?
@@ -66,22 +67,27 @@ At this point, developers should have a good idea of what the system is supposed
 
 During the development of the software, many tactical decisions will have to be made as well.  Developers will need to determine the best algorithms and data structures to use, how to comment their code, which external libraries to use, which version of the language to use, how to structure interfaces, and many other things.  There are usually no entirely correct answers to any of these questions, but most will involve trade-offs of one kind or another.  For example, using the newest version of a language may mean that you can use a particular library, but staying with an older version will mean more stability and less training time for the development team.
 
-
+Of course, software developers do not operate in a vacuum, nor do they always create software which does exactly what it is supposed to do without error and without fail.  That is why the next phase is necessary.
 
 #### Integration and Test
 
+During integration and test, different subsystems and features are integrated to ensure that they work together properly.  
 
 #### Release
+
+Finally, you have written all of the code for your software product, integrated all of the pieces together, and even tested it to ensure that you have as few defects as possible.  While you may be tempted to sit back and rest on your laurels, there's still more work to do be done!  The software has to be released.  
 
 
 #### Maintenance
 
-
+The software has been released and is being used, but that does not mean that our hard-working team gets to take a break.  
 
 
 There are other stages which may be necessary as well, depending on the domain of the software being produced and the methodology used to produce it (specific methodologies will be detailed in the next chapter).  
 
 #### External Acceptance
+
+
 
 #### Regulatory Checks
 

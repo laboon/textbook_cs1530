@@ -1,5 +1,8 @@
 ## Introduction
 
+_"There is no royal road to geometry."_  
+-Attributed to Euclid of Alexandria, when asked if there was a faster way of learning geometry than reading his book
+
 People often think of software engineering as programming.  They then enroll in Computer Science classes to learn how to program.  Sadly, this causes many people to conflate the terms _software development_, _programming_, and _computer science_, when the terms have very different meanings.
 
 Computer Science is the base upon which all computational activity rests.  It focuses on the theory of computation, algorithms, and automation in general.  Although having a computer can often give us insights into computer science, in theory there is no need for a computer scientist to have access to a computer at all!  Early researchers such as Alan Turing and Ada Lovelace did important computational work well before they ever touched a working computer.  As a famous quote often attributed to Edsger Dijkstra goes, "computer science is no more about computers than astronomy is about telescopes."  That is, computers can be tools to help us understand computation, but they are the means, not an ends.
