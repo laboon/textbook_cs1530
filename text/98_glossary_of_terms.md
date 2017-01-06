@@ -12,6 +12,10 @@ __domain__: A specific field for which the software is written.  For example, th
 
 __edge case__: A state of the system which is unexpected in normal operation, or unusual, such as a database being corrupted or a user attempting to buy 7 billion books.
 
+__graphical user interface__: A way of interacting with a program in a graphical, as opposed to text-based, fashion.  For example, pressing buttons or tapping a screen.
+
+__GUI__: An acronym standing for __graphical user interface__
+
 __programming__: Writing instructions for a computer to execute.
 
 __requirements__: A formal specification of what the system needs to do in order to be considered complete.

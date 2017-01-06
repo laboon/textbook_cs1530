@@ -60,7 +60,13 @@ After the design phase is complete, it is time to move on to the __development__
 
 Congratulations!  You have now reached the first part of the SDLC where you will actually get to write code.  Unlike many simple projects, non-trivial software engineering requires much more work than just writing code.  While programming is, of course, an important aspect of software development, it is certainly not the only one.
 
-At this point, developers should have a good idea of what the system is supposed to do (from the requirements phase), and a "guidebook" on how to do it (from the design phase).  Developers can then 
+Developers and other team members will work on determining which programming languages, frameworks, and other tools will be used to develop the application.  The choices can often be more difficult than they appear.  At large or established companies, there may be "standard" or "approved" programming languages or tools, but for a startup or a more flexible team, there may be no precursors to use as a template.  The domain may dictate the language, or at least constrict the choices - for example, most web applications will use some JavaScript since it runs on virtually every web browser.  Even then, though, there are choices to be made.  Should the backend also be in JavaScript using node.js, or should it be in a different language?  Should "pure" JavaScript, or a language which compiles to JavaScript such as TypeScript or CoffeeScript?  Should a heavy front-end framework be used, or should the code be developed while minimizing external dependencies?  There are benefits and drawbacks to each choice, and there are many choices.  And this is for a domain where your choices are relatively restricted!  A desktop application may easily be written in one of dozens of languages.  The decisions you make will depend upon the team you are working with, their background, your goals and timeline for the current project, what libraries are available in those languages, and a myriad of other reasons.
+
+At this point, developers should have a good idea of what the system is supposed to do (from the requirements phase), and a "guidebook" on how to do it (from the design phase).  Developers and managers can determine what parts of the system should be worked on first, either because they are of high business value or because other parts of the system depend upon them.  For example, when developing a user-facing application, perhaps the __graphical user interface__ (__GUI__) basics will be implemented first, so that additional features which will also be displayed graphically can then be constructed using that foundation.  In another situation, when developing scientific modeling software, the best path forward might be to develop the algorithms first, and then build a user interface which interacts with them afterwards.
+
+During the development of the software, many tactical decisions will have to be made as well.  Developers will need to determine the best algorithms and data structures to use, how to comment their code, which external libraries to use, which version of the language to use, how to structure interfaces, and many other things.  There are usually no entirely correct answers to any of these questions, but most will involve trade-offs of one kind or another.  For example, using the newest version of a language may mean that you can use a particular library, but staying with an older version will mean more stability and less training time for the development team.
+
+
 
 #### Integration and Test
 
@@ -73,7 +79,7 @@ At this point, developers should have a good idea of what the system is supposed
 
 
 
-There are other stages which may be necessary as well, depending on the domain of the software being produced and the methodology used to produce it (specific methodologies will be detailed in the next chapter).
+There are other stages which may be necessary as well, depending on the domain of the software being produced and the methodology used to produce it (specific methodologies will be detailed in the next chapter).  
 
 #### External Acceptance
 
@@ -86,6 +92,8 @@ There are other stages which may be necessary as well, depending on the domain o
 #### EOL Preparation
 
 #### Customer Support
+
+### Trade-Offs
 
 ### The Non-Linearity of Software Development
 
