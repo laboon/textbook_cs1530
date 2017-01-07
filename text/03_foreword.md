@@ -1,6 +1,9 @@
 ## Foreword
 
-_"Why write another book on software engineering?  Aren't there enough out there already?"_
+_"The beginning is the most important part of any work."_
+-Plato, _The Republic_
+
+Why write another book on software engineering?  Aren't there enough out there already?
 
 Sure, there are plenty of books out there on writing software.  There are plenty of books out there on architecture and design patterns.  There are plenty of books out there on concurrency in Java.  There are plenty of books out there on how to develop software in an "Agile" way.  There are plenty of books out there on interacting with stakeholders.
 

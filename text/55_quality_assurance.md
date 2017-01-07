@@ -1,6 +1,7 @@
 ## Quality Assurance
 
-
+"Say to yourself in the early morning: I shall meet today inquisitive, ungrateful, violent, treacherous, envious, uncharitable men. All these things have come upon them through ignorance of real good and ill."
+-Marcus Aurelius, _Meditations_
 
 ### What Is Meant By Quality?
 
